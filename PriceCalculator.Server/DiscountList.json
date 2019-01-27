@@ -1,0 +1,30 @@
+[
+  {
+    "CouponCode": "DIS10",
+    "TotalPrice": 2000,
+    "CustomerCount": 0,
+    "DiscountPrice": 0.9,
+    "MatchReson": "Rule 1"
+  },
+  {
+    "CouponCode": "STARCARD",
+    "TotalPrice": 0,
+    "CustomerCount": 2,
+    "DiscountPrice": 0.7,
+    "MatchReson": "Rule 2"
+  },
+  {
+    "CouponCode": "STARCARD",
+    "TotalPrice": 0,
+    "CustomerCount": 4,
+    "DiscountPrice": 0.75,
+    "MatchReson": "Rule 3"
+  },
+  {
+    "CouponCode": "",
+    "TotalPrice": 2500,
+    "CustomerCount": 0,
+    "DiscountPrice": 0.75,
+    "MatchReson": "Rule 4"
+  }
+]

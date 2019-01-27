@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PriceCalculator.Model\PriceCalculator.Model.csproj" />
+    <ProjectReference Include="..\PriceCalculator.Server.BusinessLogic.Model\PriceCalculator.Server.BusinessLogic.Model.csproj" />
+  </ItemGroup>
+
+</Project>

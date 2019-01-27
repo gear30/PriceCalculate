@@ -1,0 +1,20 @@
+﻿@model PriceCalculator.Model.PriceResponse
+
+@{
+    ViewData["Title"] = "PriceCal";
+}
+
+<form>
+    @{
+        <p>Total Price :@Model.TotalPrice </p>
+        <p>Reson :@Model.Reason </p>
+    }
+        <div class="form-group">
+            <!-- Markup removed for brevity -->
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Back" class="btn btn-default" asp-action="Index" />
+                </div>
+            </div>
+        </div>
+</form>
